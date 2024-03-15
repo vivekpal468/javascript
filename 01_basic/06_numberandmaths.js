@@ -18,5 +18,12 @@ const nexttonext = 100000
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                                 //MATHS//
-console.log(Math)
-
+// console.log(Math)
+// console.log(Math.abs(-4))  //negative value change into positive   
+// console.log(Math.PI)
+// console.log(Math.round(4.9))
+// console.log(Math.ceil(4.1))
+// console.log(Math.floor(4.1))
+console.log(Math.max(4,8,6,7,14))
+console.log(Math.min(4,5,8,-9,3,-8))
+console.log(Math.random())
