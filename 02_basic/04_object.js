@@ -51,3 +51,5 @@ const user = [
 // console.log(Object.keys(appUser));
 // console.log(Object.values(appUser));
 console.log(Object.entries(appUser));
+
+console.log(appUser.hasOwnProperty('name9'));
