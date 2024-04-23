@@ -1,8 +1,8 @@
-Project related to DOM
+## Project Related To DOM
 
-Solution Code
+## Solution Codes : 
 
-Project 1:
+## Project 1 Solution Code:
 ```javascript
 const buttons = document.querySelectorAll('.button')
 const body = document.querySelector('body')
@@ -30,7 +30,7 @@ buttons.forEach(function (button)
 ```
 
 
-Project 2:
+## Project 2 Solution Code:
 ```javascript
 const form = document.querySelector('form');
 form.addEventListener('submit', function(e)
@@ -52,4 +52,14 @@ form.addEventListener('submit', function(e)
     results.innerHTML = `<span> ${bmi} </span>`;
   }
 });
+```
+
+## project 3 Solution Code :
+```
+const clock = document.querySelector('#clock')
+setInterval(function (){
+  let date = new Date();
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+
 ```
