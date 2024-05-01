@@ -63,7 +63,7 @@ setInterval(function (){
 }, 1000);
 
 ```
-## project 3 Solution Code :
+## project 4 Solution Code :
 ```javascript
 // generate random color
 const randomColor = function () {
